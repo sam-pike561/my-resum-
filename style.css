@@ -9,22 +9,38 @@
 body
 {
   display: flex;
+  flex-direction: column;
   background: #0a2a43;
   min-height: 1500px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 15px;
   object-fit: contain;
 }
+
+
+
 section
 {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.res__image
+{
+
+}
+
+.res__docs
+{
+
+}
+
 section:before
 {
   content: '';
