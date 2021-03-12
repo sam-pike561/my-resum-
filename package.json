@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "firebase": "^8.3.0",
     "gulp": "^4.0.2",
     "node": "^15.10.0",
     "pdfjs-dist": "^2.6.347",
